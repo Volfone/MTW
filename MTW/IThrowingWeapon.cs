@@ -8,6 +8,7 @@ namespace MTW
 {
     internal interface IThrowingWeapon : IWeapon
     {
+        public int Amount { get; set; }
         public void Throw() { }
     }
 }

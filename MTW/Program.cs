@@ -6,13 +6,61 @@ using System.Threading.Tasks;
 
 using MTW;
 
-Console.WriteLine("Hello, World!");
+Blacksmith blacksmith = new Blacksmith();
+Kunai kuani = new Kunai();
+Shuriken shuriken = new Shuriken();
+Tanto tanto = new Tanto();
+Human human = new Human("Name");
+Human human2 = new Human("Nmae1");
+human.Attack(kuani, human2);/*
+human.Attack(shuriken, human2);*/
+human.Attack(tanto, human2);
+human.Throw(kuani, human2);
+human.Throw(shuriken, human2);/*
+human.Throw(tanto, human2);*/
+blacksmith.Upgrade(kuani);
+human.Attack(kuani, human2);
+human.Attack(kuani, human2);/*
+human.Attack(shuriken, human2);*/
+human.Attack(tanto, human2);
+human.Throw(kuani, human2);
+human.Throw(shuriken, human2);/*
+human.Throw(tanto, human2);*/
+human.Attack(kuani, human2);/*
+human.Attack(shuriken, human2);*/
+human.Attack(tanto, human2);
+human.Throw(kuani, human2);
+human.Throw(shuriken, human2);/*
+human.Throw(tanto, human2);*/
+human.Attack(kuani, human2);/*
+human.Attack(shuriken, human2);*/
+human.Attack(tanto, human2);
+human.Throw(kuani, human2);
+human.Throw(shuriken, human2);/*
+human.Throw(tanto, human2);*/
+human.Attack(kuani, human2);/*
+human.Attack(shuriken, human2);*/
+human.Attack(tanto, human2);
+human.Throw(kuani, human2);
+human.Throw(shuriken, human2);/*
+human.Throw(tanto, human2);*/
+human.Attack(kuani, human2);/*
+human.Attack(shuriken, human2);*/
+human.Attack(tanto, human2);
+human.Throw(kuani, human2);
+human.Throw(shuriken, human2);/*
+human.Throw(tanto, human2);*/
+human.Attack(kuani, human2);/*
+human.Attack(shuriken, human2);*/
+human.Attack(tanto, human2);
+human.Throw(kuani, human2);
+human.Throw(shuriken, human2);/*
+human.Throw(tanto, human2);*/
 
-IMeleeWeapon weapon = new Kunai();
-weapon.Attack();
-IThrowingWeapon weapon1 = new Kunai();
-weapon1.Throw();
-weapon = new Tanto();
-weapon.Attack();
-weapon1 = new Shuriken();
-weapon1.Throw();
+blacksmith.Repair(tanto);
+human.Attack(kuani, human2);/*
+human.Attack(shuriken, human2);*/
+human.Attack(tanto, human2);
+human.Throw(kuani, human2);
+human.Throw(shuriken, human2);/*
+human.Throw(tanto, human2);*/

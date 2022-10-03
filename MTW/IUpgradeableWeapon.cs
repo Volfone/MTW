@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace MTW
 {
-    internal interface IWeapon
+    internal interface IUpgradeableWeapon : IWeapon
     {
-        public int Damage { get; set; }
-        public string Name { get; set; }
+        public int Level { get; set; }
     }
 }
